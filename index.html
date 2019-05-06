@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>AI智能抠图</title>
+    <link rel="stylesheet" href="static/public.css">
+    <!--标题栏：-->
+    <!--<link rel="icon" href="static/ball.png" type="image/x-icon">-->
+    <!--收藏夹：-->
+    <!--<link rel="shortcut icon" href="static/ball.png" type="image/x-icon">-->
+  </head>
+  <style>
+    header{
+      font-size: 14px;
+      color: #fff;
+      line-height:60px ;
+      background: url("static/images/back.jpg") no-repeat center;
+    }
+    header .first{
+      margin-bottom: 144px;
+    }
+    header li{
+      margin: 0 20px;
+    }
+    header .big{
+      text-align: center;
+      font-size: 60px;
+      color: #fff;
+      line-height: 80px;
+    }
+    header .big p:last-child{
+      font-size: 26px;
+      line-height: normal;
+      text-align: left;
+      text-indent: 330px;
+      padding-bottom: 280px;
+    }
+    header .big .a-i{
+      justify-content: center;
+    }
+    .content{
+      padding-bottom: 85px;
+    }
+    .content .title{
+      font-size: 34px;
+      padding: 90px 0 80px 0;
+      text-align: center;
+      color: #000;
+      font-weight: 500;
+    }
+    .content ul li{
+      font-size: 14px;
+      color: #b4b4b4;
+      text-align: center;
+      width: 225px;
+    }
+    .content ul img{
+      display: block;
+      width: 80px;
+      height: 80px;
+      margin:0 auto;
+      margin-bottom: 26px;
+    }
+    .content ul h4{
+      font-size: 20px;
+      color: #262626;
+      margin-bottom: 24px;
+      font-weight: 500;
+    }
+    .content ul p{
+      line-height: 24px;
+    }
+    footer {
+      background-color: #191919;
+      color: #fff;
+      font-size: 12px;
+      line-height: 20px;
+      padding-top: 62px;
+    }
+    footer img{
+      display: block;
+      width: 124px;
+      height: 40px;
+      margin-bottom: 15px;
+    }
+    footer ul {
+      padding-bottom: 40px;
+      border-bottom: 1px solid #474747;
+    }
+    footer ul h4{
+      font-size: 18px;
+      font-weight: 500;
+      margin-bottom: 24px;
+    }
+    footer ul li{
+      flex: 1;
+    }
+    footer ul li:first-child{
+      width: 405px;
+      margin-right: 110px;
+    }
+    footer .last{
+      line-height: 58px;
+      text-align: center;
+    }
+    footer ul li .flex p{
+      margin-right: 24px;
+    }
+  </style>
+  <body>
+    <header>
+        <div class="margin flex j-b a-i first">
+          <img src="static/images/logo.png" alt="">
+          <ul class="flex">
+            <li class="cu">智能抠图</li>
+            <li class="cu">关于</li>
+            <li class="cu">会员</li>
+            <li class="cu">登录</li>
+          </ul>
+        </div>
+      <div class="margin big">
+        <p class="flex a-i">智能一键抠图神器<img src="static/images/free.png" alt=""></p>
+        <p>1 0 0 % 自 动  -  5 秒  -  免 费 背 景 模 板</p>
+      </div>
+    </header>
+    <div id="app"></div>
+    <div class="content">
+        <div class="title">为什么选我们</div>
+        <ul class="flex j-b margin">
+          <li>
+            <img src="static/images/img1.png" alt="">
+            <h4>个人与专业</h4>
+            <p>不论是电商照片、生活照片、旅行照片，大批量抠图总是令人头疼。体验从未有过的简单。</p>
+          </li>
+          <li>
+            <img src="static/images/img2.png" alt="">
+            <h4>节约金钱和时间</h4>
+            <p>花费大量时间?雇佣大量人员?现在有更好的方案了，智能抠图来解放双手，还免费。</p>
+          </li>
+          <li>
+            <img src="static/images/img3.png" alt="">
+            <h4>100%自动化</h4>
+            <p>上传文件或者粘贴URL，仅此而已，无需按像素筛选，无需标注人员物体部位，什么都不用。</p>
+          </li>
+          <li>
+            <img src="static/images/img4.png" alt="">
+            <h4>全套分类模板</h4>
+            <p>海边、树林、高山、街景、超市、东南亚、北欧、美国、日本，免费背景模板，直接选择使用。</p>
+          </li>
+        </ul>
+    </div>
+    <footer>
+        <div class="margin">
+          <ul class="flex">
+            <li>
+              <img src="static/images/logo.png" alt="">
+              <p>自助构建人工智能服务视觉应用平台，开创全球首个自助式图像引擎，实现快速服务创建、扩展和维护。企业可以通过简单、快速的API调用，一站式获得多种人工智能技术服务，实现技术与业务的无缝连接。</p>
+            </li>
+            <li>
+              <h4>联系我们</h4>
+              <p>business@deeplor.com</p>
+            </li>
+            <li>
+              <h4>语言</h4>
+              <div class="flex"><p>中文</p><p>English</p></div>
+            </li>
+          </ul>
+        </div>
+      <div class="last">
+       @ Copyright Deeplor 2018. All Rights reserved
+      </div>
+    </footer>
+    <!-- built files will be auto injected -->
+  </body>
+</html>

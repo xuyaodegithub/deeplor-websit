@@ -1,0 +1,100 @@
+@charset "utf-8";
+/* CSS Document */
+
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select,figure{margin:0;padding:0;}
+body{font-size:12px; word-wrap:break-word;height:100%;}
+html{height:100%;}
+a,u,s,del{color:#666;text-decoration:none}
+fieldset ,a img,.bor0 {border:0;}
+i,em,b,th{font-style:normal;font-weight:100;}
+li{list-style:none}
+img{vertical-align:middle}
+table{border-collapse:collapse;}
+mark{background:none;}
+input,textarea{outline:none;}/*去除谷歌点击蓝色虚框*/
+textarea{resize:none;}/*禁止多行文本输入框的拖动*/
+.margin{width:1200px;margin:0 auto;}
+@font-face {font-family: "iconfont";
+  src: url('iconfont.eot?t=1555396350786'); /* IE9 */
+  src: url('iconfont.eot?t=1555396350786#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,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') format('woff2'),
+  url('iconfont.woff?t=1555396350786') format('woff'),
+  url('iconfont.ttf?t=1555396350786') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('iconfont.svg?t=1555396350786#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-chexiaofanhuichehuishangyibu:before {
+  content: "\e76b";
+}
+
+.icon-zhaoxiangji:before {
+  content: "\e611";
+}
+
+.icon-pan_icon:before {
+  content: "\e678";
+}
+
+.icon-xiangpi:before {
+  content: "\e63d";
+}
+
+.icon-qianbi:before {
+  content: "\e626";
+}
+
+.icon-zhongzhi:before {
+  content: "\e63a";
+}
+
+
+
+
+
+
+/*文本溢出 出现省略号*/
+.over{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+
+/*垂直对齐方式*/
+.valign:after{content:"";display:inline-block;width:0;height:100%;vertical-align:middle;}
+
+
+
+/*万能清除法*/
+.clear{zoom:1;}
+.clear:after{content:"";clear:both;display:block;}
+
+/*鼠标手势点*/
+.cu{cursor:pointer;}
+/*.cu:hover{color:#bd2c00}*/
+
+.ind2{text-indent:2em}
+
+.flex{
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+.border-r{
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+}
+.j-b{
+  justify-content: space-between;
+}
+.a-i{
+  align-items: center
+}
