@@ -59,7 +59,6 @@ textarea{resize:none;}/*禁止多行文本输入框的拖动*/
 
 
 
-
 /*文本溢出 出现省略号*/
 .over{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
 

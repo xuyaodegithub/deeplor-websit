@@ -1,6 +1,6 @@
 //created by Yan on 17/11/9
 import axios from 'axios'
-axios.defaults.timeout = 10000;//10秒还未得到请求答复，就报超时错误
+// axios.defaults.timeout = 10000;//10秒还未得到请求答复，就报超时错误
 export function fetch(url, params) {
   return new Promise((resolve, reject) => {
     axios.post(url, params)

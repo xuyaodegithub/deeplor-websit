@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "babel-polyfill": "^6.26.0",
-    "element-ui": "^2.4.5",
+    "element-ui": "^2.8.2",
     "js-cookie": "^2.2.0",
     "path-to-regexp": "^3.0.0",
     "vue": "^2.5.2",

@@ -13,7 +13,7 @@ import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
 import './assets/public.css';
 // import 'element-ui/lib/theme-chalk/display.css';
-import './libs/public.css'
+// import './assets/fontSize/iconfont.css'
 import filters from './filters/filters'
 Object.keys(filters).map((val,index)=>{
   Vue.filter(val,filters[val])

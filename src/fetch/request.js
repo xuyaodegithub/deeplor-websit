@@ -11,7 +11,7 @@ import { throwErr } from '../utils/setRepose'
 //
 // })
 const instance  =axios.create({
-  timeout:10000,
+  // timeout:10000,
   baseURL:process.env.API_HOST,
   headers:{'Content-Type':'application/x-www-form-urlencoded;charset=UTF-8'}
 });//自定义axios对象
